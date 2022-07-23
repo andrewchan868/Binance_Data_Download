@@ -1,0 +1,15 @@
+testing spot
+API Key: xjUNyVt2WHKNX2wVsbV2mxavntcHyvFPr3OeGA7rPsAVyF8RbzuoVoER3T0Uw9Fv
+Secret Key: 0pKHjBICxO68hNV3XsIZQykpcaMna4Fgny72aj9w8R8Yz4XWCu4ckMAyNUV7rL4y
+
+testing future
+API Key: 091f5bd2d5c9feec6c27725d341ce8d695df068d5d4dd8c53c2b82a92de9345d
+Secret Key: 6df2712664da708bad963b68e849f0bb5bdc658ab640f74803e3023861e081fd
+
+
+real account Ben
+API Key: ru0ARDQ36XKMd4H2WRqzt6N0paXJ0cZ87A92bThasgBLMlYNoXmETR1bciylcDSP
+Secret Key: 9RjJzBNNYya0Q26s8W1esj0ne5H9yZvLalElo9nsS37KXhMMG2423FZBfFKuVDHE
+
+
+https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/1m/BTCUSDT-1m-2019-01.zip

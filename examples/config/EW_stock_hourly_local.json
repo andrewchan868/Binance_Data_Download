@@ -1,0 +1,72 @@
+{
+  "start_year": 2020,
+  "start_month": 1,
+  "start_day": 1,
+  "end_year": 2021,
+  "end_month": 12,
+  "end_day": 31,
+  "data": {
+    "FUTURES": {
+      "DataCenter": "LocalCSV",
+      "DataCenterArgs": {
+        "main_dir": "examples/QC_data/main/",
+        "fxrate_dir": "examples/QC_data/fxrate/",
+        "int_dir": "examples/QC_data/dividends/",
+        "split_dir": "examples/QC_data/split_ratio/",
+        "info": "examples/QC_data/info/tickers_info.csv"
+      },
+      "Fields": "OHLC",
+      "Frequency": "HOURLY"
+    },
+    "FX": {
+      "DataCenter": "LocalCSV",
+      "DataCenterArgs": {
+        "main_dir": "examples/QC_data/main/",
+        "fxrate_dir": "examples/QC_data/fxrate/",
+        "int_dir": "examples/QC_data/dividends/",
+        "split_dir": "examples/QC_data/split_ratio/",
+        "info": "examples/QC_data/info/tickers_info.csv"
+      },
+      "Fields": "OHLC",
+      "Frequency": "HOURLY"
+    }
+  },
+  "ref_data":{
+    "funding_rate": {
+      "DataCenter": "LocalCSV",
+      "DataCenterArgs": {
+        "dir": "examples/QC_data/ref_data"
+      },
+      "Symbol": ["QC_ETHUSDT_prep_funding_rate", "QC_BTCUSDT_prep_funding_rate",
+                 "QC_ADAUSDT_prep_funding_rate","QC_BNBUSDT_prep_funding_rate",
+                 "QC_DOTUSDT_prep_funding_rate","QC_XRPUSDT_prep_funding_rate",
+                 "QC_DOGEUSDT_prep_funding_rate","QC_LTCUSDT_prep_funding_rate"]
+    }  
+  },
+  "account": {
+    "cash": 1000000,
+    "commission": 0.0004
+  },
+  "algo": {
+    "base_ccy": "LOCAL",
+    "window_size": {
+      "main": 1
+    }
+  },
+  "timing": {
+    "calc_rate_time_utc": "22:00"
+  },
+  "result_output": {
+    "flatten": false,
+    "save_dir": "examples/results/BTCUSD/",
+    "save_name": "BTCUSD",
+    "save_n_workers": 1
+  },
+  "signal_remark": {
+    "save_dir": "examples/remarks/BTCUSD/",
+    "save_name": "BTCUSD"
+  },
+  "optimization": {
+    "numba_parallel": false
+  }
+}

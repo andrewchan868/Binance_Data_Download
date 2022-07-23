@@ -1,0 +1,5 @@
+strategy_id,params,ref_aum,symbols
+0,[],1000000.0,"['QC_ADAUSDT' 'QC_BNBUSDT' 'QC_BTCUSDT' 'QC_DOGEUSDT' 'QC_DOTUSDT'
+ 'QC_ETHUSDT' 'QC_LTCUSDT' 'QC_XRPUSDT' 'QC_ADAUSDT_prep'
+ 'QC_BNBUSDT_prep' 'QC_BTCUSDT_prep' 'QC_DOGEUSDT_prep' 'QC_DOTUSDT_prep'
+ 'QC_ETHUSDT_prep' 'QC_LTCUSDT_prep' 'QC_XRPUSDT_prep']"
